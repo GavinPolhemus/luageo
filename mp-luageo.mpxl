@@ -1,0 +1,18 @@
+%D \module
+%D   [       file=mp-luageo.mpxl,
+%D        version=2023.12.16,
+%D          title=\CONTEXT\ \METAPOST\ graphics,
+%D       subtitle=mp-geo rewrite,
+%D         author=Gavin Polhemus,
+%D           date=\currentdate,
+%D      copyright=Gavin Polhemus]
+
+if known context_luageo : endinput ; fi
+
+boolean context_luageo ; context_luageo := true ;
+
+vardef drawglobe(expr lat, lon) text t_ =
+    for i = 1 upto lua.mp.makeglobe(lat, lon):  % This causes Lua to make the globe and return the number of paths.
+      fill lua.mp.getglobepath(i) scaled 0.5 t_ ; % lua.mp.getglobecolor(i);% Could get color from data.
+    endfor ;
+enddef ;

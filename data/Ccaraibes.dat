@@ -1,0 +1,8 @@
+Country{
+	file = "repdominicaine.dat",
+	color = "bleu",
+}
+Country{
+	file = "haiti.dat",
+	color = "vert",
+}

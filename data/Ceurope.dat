@@ -1,0 +1,192 @@
+Country{
+	file = "finlande.dat",
+	color = "jaune"
+}
+Country{
+	file = "norvege.dat",
+	color = "bleu"
+}
+Country{
+	file = "suede.dat",
+	color = "rouge"
+}
+Country{
+	file = "estonie.dat",
+	color = "violet"
+}
+Country{
+	file = "belarussie.dat",
+	color = "bleu"
+}
+Country{
+	file = "lettonie.dat",
+	color = "rose"
+}
+Country{
+	file = "lithuanie1.dat",
+	color = "jaune"
+}
+Country{
+	file = "lithuanie2.dat",
+	color = "jaune"
+}
+Country{
+	file = "russie2.dat",
+	color = "rouge"
+}
+Country{
+	file = "ukraine.dat",
+	color = "orange"
+}
+Country{
+	file = "pologne.dat",
+	color = "rose"
+}
+Country{
+	file = "slovaquie.dat",
+	color = "bleu"
+}
+Country{
+	file = "tcheque.dat",
+	color = "gris"
+}
+Country{
+	file = "moldavie.dat",
+	color = "jaune"
+}
+Country{
+	file = "roumanie.dat",
+	color = "rouge"
+}
+Country{
+	file = "bulgarie.dat",
+	color = "orange"
+}
+Country{
+	file = "turquie2.dat",
+	color = "violet"
+}
+Country{
+	file = "grece.dat",
+	color = "jaune"
+}
+Country{
+	file = "macedoine.dat",
+	color = "vert"
+}
+Country{
+	file = "yougoslavie.dat",
+	color = "bleu"
+}
+Country{
+	file = "albanie.dat",
+	color = "rouge"
+}
+Country{
+	file = "bosnie1.dat",
+	color = "orange"
+}
+Country{
+	file = "bosnie2.dat",
+	color = "gris"
+}
+Country{
+	file = "croatie.dat",
+	color = "rose"
+}
+Country{
+	file = "hongrie.dat",
+	color = "vert"
+}
+Country{
+	file = "autriche.dat",
+	color = "jaune"
+}
+Country{
+	file = "slovenie.dat",
+	color = "orange"
+}
+Country{
+	file = "italie.dat",
+	color = "vert"
+}
+Country{
+	file = "sanmarin.dat",
+	color = "bleu"
+}
+Country{
+	file = "allemagne1.dat",
+	color = "vert"
+}
+Country{
+	file = "allemagne2.dat",
+	color = "vert"
+}
+Country{
+	file = "danemark.dat",
+	color = "violet"
+}
+Country{
+	file = "liechtenstein.dat",
+	color = "jaune"
+}
+Country{
+	file = "suisse.dat",
+	color = "rouge"
+}
+Country{
+	file = "paysbas.dat",
+	color = "jaune"
+}
+Country{
+	file = "luxembourg.dat",
+	color = "violet"
+}
+Country{
+	file = "belgique.dat",
+	color = "orange"
+}
+Country{
+	file = "france.dat",
+	color = "jaune"
+}
+Country{
+	file = "andorre.dat",
+	color = "gris"
+}
+Country{
+	file = "monaco.dat",
+	color = "gris"
+}
+Country{
+	file = "espagne.dat",
+	color = "rouge"
+}
+Country{
+	file = "portugal.dat",
+	color = "jaune"
+}
+Country{
+	file = "gibraltar.dat",
+	color = "gris"
+}
+Country{
+	file = "angleterre.dat",
+	color = "gris"
+}
+Country{
+	file = "ecosse.dat",
+	color = "jaune"
+}
+Country{
+	file = "paysdegalles.dat",
+	color = "rouge"
+}
+Country{
+	file = "irelandenord.dat",
+	color = "bleu"
+}
+Country{
+	file = "irelande.dat",
+	color = "vert"
+}

@@ -1,0 +1,62 @@
+%D \module
+%D   [       file=t-luageo,
+%D        version=2023.12.16,
+%D          title=\CONTEXT\ Extra Modules,
+%D       subtitle=\METAPOST\ mp-geo rewrite,
+%D         author=Gavin Polhemus,
+%D           date=\currentdate,
+%D      copyright={Gavin Polhemus}]
+
+%\unprotect
+%
+%\defineMPinstance % Should I start a MetaPost instance?
+%  [luageo]
+%  [\s!format=metafun,
+%   \s!extensions=\v!yes,
+%   \s!initializations=\v!yes,
+%   \c!method=\s!double]
+%
+%\protect
+
+\startMPdefinitions
+    loadmodule "luageo" ;
+\stopMPdefinitions
+
+\registerctxluafile{luageo}{}
+
+% mp-geo provides a color, in French, for each country. These should probably be confined to a namespace for the module. At present they are not used.
+%
+%\definecolor[rouge][red]
+%\definecolor[bleu][blue]
+%\definecolor[noir][black]
+%\definecolor[blanc][white]
+%\definecolor[orange][r=1, g= 0.5, b=0]
+%\definecolor[violet][r=1, g=0, b=1]
+%\definecolor[rose][r=1, g=0.7, b=0.7]
+%\definecolor[cielfonce][r=0.25, g=0.75, b=1]
+%\definecolor[ciel][r=0, g=1, b=1]
+%\definecolor[orangevif][r=1, g=0.25, b=0.1]
+%\definecolor[vert][green]
+%\definecolor[jaune][r=1, g=1, b=0]
+%\definecolor[gris][0.8*white]
+%\definecolor[tan][r=0.824, b=0.705, b=0.55]
+
+
+\continueifinputfile{m-luagraph.mkxl}
+
+\setupbodyfont   [dejavu-condensed,10pt]
+\setupwhitespace [small]
+
+%\enabletrackers[metapost*]
+%\enabletrackers[metapost.scripts]
+%\enabletrackers[metapost.lua]
+
+\starttext
+
+\startsubject [title=luageo]
+
+I should write some documentation
+
+\stopsubject
+
+\stoptext

@@ -1,0 +1,32 @@
+Country{
+	file = "panama1.dat",
+	color = "vert",
+}
+Country{
+	file = "panama2.dat",
+	color = "vert",
+}
+Country{
+	file = "costarica.dat",
+	color = "jaune",
+}
+Country{
+	file = "nicaragua.dat",
+	color = "bleu",
+}
+Country{
+	file = "honduras.dat",
+	color = "rouge",
+}
+Country{
+	file = "salvador.dat",
+	color = "violet",
+}
+Country{
+	file = "belize.dat",
+	color = "jaune",
+}
+Country{
+	file = "guatemala.dat",
+	color = "rose",
+}

@@ -1,0 +1,16 @@
+Country{
+	file = "mexique.dat",
+	color = "violet",
+}
+Country{
+	color = "orange",
+	file = "usa1.dat",
+}
+Country{
+	file = "usa2.dat",
+	color = "orange",
+}
+Country{
+	file = "canada.dat",
+	color = "jaune",
+}

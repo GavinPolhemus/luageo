@@ -1,0 +1,20 @@
+% !TEX useAlternatePath
+% !TEX useConTeXtSyncParser
+ 
+\setupsynctex[state=start,method=max] % "method=max" or "min"
+
+\usemodule [luageo]
+
+\starttext
+
+Drawn with the luageo module:
+\blank[big]
+
+\startMPcode
+    GlobeDiameter = 10cm ;
+    fill fullcircle scaled GlobeDiameter withcolor .9white ;  % Fill a circle with the water color.
+    drawglobe(23, 0) scaled GlobeDiameter withcolor .75white ;% Draw the land.
+    draw fullcircle scaled GlobeDiameter withcolor black ;    % Add a border, if you want.
+\stopMPcode
+
+\stoptext

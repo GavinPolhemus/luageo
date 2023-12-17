@@ -1,0 +1,188 @@
+Country{
+	file = "russie1bis.dat",
+	color = "rouge",
+}
+Country{
+	file = "coreesud.dat",
+	color = "jaune",
+}
+Country{
+	file = "coreenord.dat",
+	color = "rose",
+}
+Country{
+	file = "chine.dat",
+	color = "vert",
+}
+Country{
+	file = "mongolie.dat",
+	color = "violet",
+}
+Country{
+	file = "kazakhstan.dat",
+	color = "jaune",
+}
+Country{
+	file = "nvelleguinne.dat",
+	color = "bleu",
+}
+Country{
+	file = "indonesie1.dat",
+	color = "orange",
+}
+Country{
+	file = "indonesie2.dat",
+	color = "orange",
+}
+Country{
+	file = "malaisie1.dat",
+	color = "rose",
+}
+Country{
+	file = "malaisie2.dat",
+	color = "rose",
+}
+Country{
+	file = "brunei.dat",
+	color = "bleu",
+}
+Country{
+	file = "vietnam.dat",
+	color = "jaune",
+}
+Country{
+	file = "cambodge.dat",
+	color = "violet",
+}
+Country{
+	file = "laos.dat",
+	color = "rouge",
+}
+Country{
+	file = "thailande.dat",
+	color = "bleu",
+}
+Country{
+	file = "birmanie.dat",
+	color = "orange",
+}
+Country{
+	file = "inde.dat",
+	color = "gris",
+}
+Country{
+	file = "bangladesh.dat",
+	color = "jaune",
+}
+Country{
+	file = "bhutan.dat",
+	color = "violet",
+}
+Country{
+	file = "nepal.dat",
+	color = "rouge",
+}
+Country{
+	file = "pakistan.dat",
+	color = "bleu",
+}
+Country{
+	file = "kyrgyzstan.dat",
+	color = "blanc",
+}
+Country{
+	file = "tajikistan.dat",
+	color = "jaune",
+}
+Country{
+	file = "afganistan.dat",
+	color = "violet",
+}
+Country{
+	file = "ouzbekistan.dat",
+	color = "rose",
+}
+Country{
+	file = "turkmenistan.dat",
+	color = "bleu",
+}
+Country{
+	file = "iran.dat",
+	color = "rouge",
+}
+Country{
+	file = "azerbaijan1.dat",
+	color = "orange",
+}
+Country{
+	file = "azerbaijan2.dat",
+	color = "orange",
+}
+Country{
+	file = "georgie.dat",
+	color = "jaune",
+}
+Country{
+	file = "armenie.dat",
+	color = "vert",
+}
+Country{
+	file = "turquie1.dat",
+	color = "violet",
+}
+Country{
+	file = "koweit.dat",
+	color = "jaune",
+}
+Country{
+	file = "irak.dat",
+	color = "vert",
+}
+Country{
+	file = "syrie.dat",
+	color = "bleu",
+}
+Country{
+	file = "liban.dat",
+	color = "rouge",
+}
+Country{
+	file = "quatar.dat",
+	color = "violet",
+}
+Country{
+	file = "oman1.dat",
+	color = "vert",
+}
+Country{
+	file = "oman2.dat",
+	color = "vert",
+}
+Country{
+	file = "emirats.dat",
+	color = "rose",
+}
+Country{
+	file = "yemen.dat",
+	color = "jaune",
+}
+Country{
+	file = "arabiesaoudite.dat",
+	color = "bleu",
+}
+Country{
+	file = "jordanie.dat",
+	color = "rouge",
+}
+Country{
+	file = "westbank.dat",
+	color = "violet",
+}
+Country{
+	file = "israel.dat",
+	color = "vert",
+}
+Country{
+	file = "gaza.dat",
+	color = "rose",
+}

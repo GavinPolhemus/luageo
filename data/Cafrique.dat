@@ -1,0 +1,200 @@
+Country{
+	file = "somalie.dat",
+	color = "jaune",
+}
+Country{
+	file = "djibouti.dat",
+	color = "vert",
+}
+Country{
+	file = "eritre.dat",
+	color = "bleu",
+}
+Country{
+	file = "ethiopie.dat",
+	color = "rouge",
+}
+Country{
+	file = "soudan.dat",
+	color = "rose",
+}
+Country{
+	file = "egypte.dat",
+	color = "violet",
+}
+Country{
+	file = "libye.dat",
+	color = "orange",
+}
+Country{
+	file = "tchad.dat",
+	color = "jaune",
+}
+Country{
+	file = "kenya.dat",
+	color = "violet",
+}
+Country{
+	file = "ouganda.dat",
+	color = "vert",
+}
+Country{
+	file = "tanzanie.dat",
+	color = "bleu",
+}
+Country{
+	file = "rwanda.dat",
+	color = "rouge",
+}
+Country{
+	file = "burundi.dat",
+	color = "rose",
+}
+Country{
+	file = "mozambique.dat",
+	color = "violet",
+}
+Country{
+	file = "malawi.dat",
+	color = "orange",
+}
+Country{
+	file = "zimbabwe.dat",
+	color = "gris",
+}
+Country{
+	file = "zambie.dat",
+	color = "rose",
+}
+Country{
+	file = "zaire.dat",
+	color = "orange",
+}
+Country{
+	file = "repcentreafrique.dat",
+	color = "bleu",
+}
+Country{
+	file = "afriquesud1.dat",
+	color = "rouge",
+}
+Country{
+	file = "afriquesud2.dat",
+	color = "rouge",
+}
+Country{
+	file = "lesotho.dat",
+	color = "rose",
+}
+Country{
+	file = "swaziland.dat",
+	color = "jaune",
+}
+Country{
+	file = "botswana.dat",
+	color = "orange",
+}
+Country{
+	file = "angola.dat",
+	color = "gris",
+}
+Country{
+	file = "namibie.dat",
+	color = "jaune",
+}
+Country{
+	file = "congo.dat",
+	color = "vert",
+}
+Country{
+	file = "cabinda.dat",
+	color = "bleu",
+}
+Country{
+	file = "cameroun.dat",
+	color = "rouge",
+}
+Country{
+	file = "gabon.dat",
+	color = "rose",
+}
+Country{
+	file = "riomuni.dat",
+	color = "violet",
+}
+Country{
+	file = "nigeria.dat",
+	color = "orange",
+}
+Country{
+	file = "niger.dat",
+	color = "gris",
+}
+Country{
+	file = "tunisie.dat",
+	color = "jaune",
+}
+Country{
+	file = "algerie.dat",
+	color = "vert",
+}
+Country{
+	file = "benin.dat",
+	color = "bleu",
+}
+Country{
+	file = "togo.dat",
+	color = "rouge",
+}
+Country{
+	file = "ghana.dat",
+	color = "rose",
+}
+Country{
+	file = "burkinafaso.dat",
+	color = "violet",
+}
+Country{
+	file = "coteivoire.dat",
+	color = "orange",
+}
+Country{
+	file = "mali.dat",
+	color = "jaune",
+}
+Country{
+	file = "maroc.dat",
+	color = "jaune",
+}
+Country{
+	file = "mauritanie.dat",
+	color = "rouge",
+}
+Country{
+	file = "saharaouest.dat",
+	color = "bleu",
+}
+Country{
+	file = "liberia.dat",
+	color = "rouge",
+}
+Country{
+	file = "guinee.dat",
+	color = "rose",
+}
+Country{
+	file = "sierraleone.dat",
+	color = "violet",
+}
+Country{
+	file = "senegal.dat",
+	color = "orange",
+}
+Country{
+	file = "gambie.dat",
+	color = "gris",
+}
+Country{
+	file = "guineebissau.dat",
+	color = "jaune",
+}

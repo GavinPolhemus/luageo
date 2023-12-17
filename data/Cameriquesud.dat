@@ -1,0 +1,64 @@
+Country{
+	file = "bresil.dat",
+	color = "vert",
+}
+Country{
+	file = "uruguay.dat",
+	color = "jaune",
+}
+Country{
+	file = "paraguay.dat",
+	color = "jaune",
+}
+Country{
+	file = "bolivie1.dat",
+	color = "bleu",
+}
+Country{
+	file = "bolivie2.dat",
+	color = "bleu",
+}
+Country{
+	file = "argentine1.dat",
+	color = "rouge",
+}
+Country{
+	file = "argentine2.dat",
+	color = "rouge",
+}
+Country{
+	file = "chili1.dat",
+	color = "violet",
+}
+Country{
+	file = "chili2.dat",
+	color = "violet",
+}
+Country{
+	file = "guineef.dat",
+	color = "jaune",
+}
+Country{
+	file = "surinam.dat",
+	color = "rouge",
+}
+Country{
+	file = "guyane.dat",
+	color = "orange",
+}
+Country{
+	file = "venezuela.dat",
+	color = "bleu",
+}
+Country{
+	file = "colombie.dat",
+	color = "rouge",
+}
+Country{
+	file = "perou.dat",
+	color = "rose",
+}
+Country{
+	file = "equateur.dat",
+	color = "jaune",
+}
