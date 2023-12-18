@@ -1,3 +1,6 @@
+% !TEX useAlternatePath
+% !TEX useConTeXtSyncParser
+%
 %D \module
 %D   [       file=t-luageo,
 %D        version=2023.12.16,
@@ -22,7 +25,7 @@
     loadmodule "luageo" ;
 \stopMPdefinitions
 
-\registerctxluafile{luageo}{}
+\registerctxluafile{t-luageo}{}
 
 % mp-geo provides a color, in French, for each country. These should probably be confined to a namespace for the module. At present they are not used.
 %
@@ -42,10 +45,10 @@
 %\definecolor[tan][r=0.824, b=0.705, b=0.55]
 
 
-\continueifinputfile{m-luagraph.mkxl}
+\continueifinputfile{t-luageo.mkxl}
 
-\setupbodyfont   [dejavu-condensed,10pt]
-\setupwhitespace [small]
+%\setupbodyfont   [dejavu-condensed,10pt]
+%\setupwhitespace [small]
 
 %\enabletrackers[metapost*]
 %\enabletrackers[metapost.scripts]
@@ -56,6 +59,30 @@
 \startsubject [title=luageo]
 
 I should write some documentation
+
+Drawn with the luageo module:
+\blank[big]
+
+\startMPcode
+   GlobeDiameter = 10cm ;
+   fill fullcircle scaled GlobeDiameter withcolor .9white ;    % Fill a circle with the water color.
+   drawglobe(23, 0) scaled GlobeDiameter withcolor .75white ;% Draw the land.
+   draw fullcircle scaled GlobeDiameter withcolor black ;      % Add a border, if you want.
+\stopMPcode
+
+The globe below uses a buffer so that it is not redrawn with every typeset.
+\startbuffer[demo]
+\usemodule [luageo]
+\startMPpage
+   GlobeDiameter = 5cm ;
+   fill fullcircle scaled GlobeDiameter withcolor .9white ;    % Fill a circle with the water color.
+   drawglobe(40, -108) scaled GlobeDiameter withcolor .75white ;% Draw the land.
+   draw fullcircle scaled GlobeDiameter withcolor black ;      % Add a border, if you want.
+\stopMPpage
+\stopbuffer
+
+\typesetbuffer[demo]
+
 
 \stopsubject
 
