@@ -12,7 +12,14 @@ if known context_luageo : endinput ; fi
 boolean context_luageo ; context_luageo := true ;
 
 vardef drawglobe(expr lat, lon) text t_ =
-    for i = 1 upto lua.mp.makeglobe(lat, lon):  % This causes Lua to make the globe and return the number of paths.
-      fill lua.mp.getglobepath(i) scaled 0.5 t_ ; % lua.mp.getglobecolor(i);% Could get color from data.
+    for i = 1 upto MP.makeglobe(lat, lon):  % This causes Lua to make the globe and return the number of paths.
+      fill MP.getglobepath(i) scaled 0.5 t_ ; % lua.mp.getglobecolor(i);% Could get color from data.
     endfor ;
+enddef ;
+
+vardef theglobe(expr lat, lon) =
+    for i = 1 upto MP.makeglobe(lat, lon):
+        (MP.getglobepath(i)) &&&&
+    endfor
+    cycle
 enddef ;

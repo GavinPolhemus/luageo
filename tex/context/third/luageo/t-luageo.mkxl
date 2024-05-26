@@ -83,6 +83,26 @@ The globe below uses a buffer so that it is not redrawn with every typeset.
 
 \typesetbuffer[demo]
 
+\startMPcode
+    %GlobeDiameter = 10cm ;
+    fill fullcircle
+        scaled GlobeDiameter
+        withcolor .9white ;
+    path p ; p := theglobe(23, 0)
+        scaled .5GlobeDiameter
+    ;
+    draw p
+        withpen pencircle scaled .2mm
+        withcolor blue
+        withtransparency (1,.5) ;
+    fill p
+        withcolor red
+        withtransparency (1,.5) ;
+    draw fullcircle
+        scaled GlobeDiameter
+        withcolor black ;
+\stopMPcode
+
 
 \stopsubject
 
