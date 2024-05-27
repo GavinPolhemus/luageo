@@ -10,6 +10,10 @@
 %D           date=\currentdate,
 %D      copyright={Gavin Polhemus}]
 
+% Data source: GLOBE Binaries DECODING : World Public Domain Dbase : F.Pospeschil, A.Rivera (1999)
+%  ftp://ftp.blm.gov/pub/gis/wdbprg.zip
+% According to https://ctan.math.washington.edu/tex-archive/graphics/pstricks/contrib/pst-geo/doc/pst-geo-doc.pdf
+
 %\unprotect
 %
 %\defineMPinstance % Should I start a MetaPost instance?
