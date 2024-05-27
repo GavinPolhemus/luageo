@@ -64,9 +64,9 @@ Drawn with the luageo module:
 \blank[big]
 
 \startMPcode
-   GlobeDiameter = 10cm ;
+   GlobeDiameter := 10cm ;
    fill fullcircle scaled GlobeDiameter withcolor .9white ;    % Fill a circle with the water color.
-   drawglobe(23, 0) scaled GlobeDiameter withcolor .75white ;% Draw the land.
+   fill globe(40, -108) scaled .5GlobeDiameter withcolor .75white ;% Draw the land.
    draw fullcircle scaled GlobeDiameter withcolor black ;      % Add a border, if you want.
 \stopMPcode
 
@@ -74,9 +74,9 @@ The globe below uses a buffer so that it is not redrawn with every typeset.
 \startbuffer[demo]
 \usemodule [luageo]
 \startMPpage
-   GlobeDiameter = 5cm ;
+   GlobeDiameter := 5cm ;
    fill fullcircle scaled GlobeDiameter withcolor .9white ;    % Fill a circle with the water color.
-   drawglobe(40, -108) scaled GlobeDiameter withcolor .75white ;% Draw the land.
+   fill globe(23, 0) scaled .5GlobeDiameter withcolor .75white ;% Draw the land.
    draw fullcircle scaled GlobeDiameter withcolor black ;      % Add a border, if you want.
 \stopMPpage
 \stopbuffer
@@ -84,11 +84,11 @@ The globe below uses a buffer so that it is not redrawn with every typeset.
 \typesetbuffer[demo]
 
 \startMPcode
-    %GlobeDiameter = 10cm ;
+    GlobeDiameter := 7cm ;
     fill fullcircle
         scaled GlobeDiameter
-        withcolor .9white ;
-    path p ; p := theglobe(23, 0)
+        withcolor .7white + .3blue;
+    path p ; p := globe(23, 0)
         scaled .5GlobeDiameter
     ;
     draw p
@@ -96,7 +96,27 @@ The globe below uses a buffer so that it is not redrawn with every typeset.
         withcolor blue
         withtransparency (1,.5) ;
     fill p
-        withcolor red
+        withcolor darkgreen
+        withtransparency (1,.5) ;
+    draw fullcircle
+        scaled GlobeDiameter
+        withcolor black ;
+\stopMPcode
+
+\startMPcode
+    GlobeDiameter := 5cm ;
+    fill fullcircle
+        scaled GlobeDiameter
+        withcolor .7white + .3blue;
+    path p ; p := MP.globe(23, 0)
+        scaled .5GlobeDiameter
+    ;
+    draw p
+        withpen pencircle scaled .2mm
+        withcolor blue
+        withtransparency (1,.5) ;
+    fill p
+        withcolor darkgreen
         withtransparency (1,.5) ;
     draw fullcircle
         scaled GlobeDiameter
